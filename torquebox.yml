@@ -1,0 +1,6 @@
+jobs:
+  refresh:
+    job: Refresh
+    cron: '*/10 * * * * ?'
+    timeout: 50000 ms
+    description: Refresh boards
